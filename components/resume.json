@@ -1,0 +1,48 @@
+[
+    {
+        "title" : "Senior Software Developer In Test",
+        "Location": "Guelph, Ontario, Canada",
+        "Company": "Camis Inc",
+        "ServiceTime": "Jan 2020 - July 2023",
+        "description": [
+            "Dockerize C#, typescript & SQL projects/applications",
+            "Implement dependabot security with jira ticketing",
+            "Create & Convert existing processes to Github Actions",
+            "Develop Splunk Dashboards to monitor performance of build processes",
+            "Separating monorepo into smaller repos including the CI/CD processes",
+            "Working with timezones and conversion between libraries (js-joda)",
+            "Automate nightly load test performance metrics bot",
+            "Lead initiative to migrate .NET applications to latest .NET6",
+            "Construct performance testing reports per release report to share with stakeholders",
+            "Automate tedious tasks for developers through ps1 scripts",
+            "Join feature squads in helping finishing feature Projects",
+            "Improve Development experience & perform site reliability maintenance"
+        ]
+    },
+    {
+        "title" : "Software Developer In Test",
+        "Location": "Guelph, Ontario, Canada",
+        "Company": "Camis Inc",
+        "ServiceTime": "April 2018 - Dec 2020",
+        "description": [
+            "Create/Integrate API Integration/Contract test suite into CI/CL pipeline",
+            "Create/Integrate UI automation test suite into CI/CL pipeline for SaaS product",
+            "Create and lead team in optimization of website using various testing methodologies",
+            "Developed Data Integrity Tests",
+            "Provide suggestions on scaling",
+            "Attend implementation strategy meetings as ambassador for testing"
+        ]
+    },
+    {
+        "title" : "Junior QA Developer",
+        "Location": "Waterloo, Ontario, Canada",
+        "Company": "Netsweeper Inc",
+        "ServiceTime": "April 2017 - Mar 2018",
+        "description": [
+            "Developed and maintained testsuites",
+            "Developed, executed and maintained SOAP/Direct API testing",
+            "Configure, test and document various network deployments",
+            "Work with server hardware to mimic real world server deployments"
+        ]
+    }
+]
