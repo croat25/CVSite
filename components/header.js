@@ -6,7 +6,7 @@ const Header = (props) => {
 
     return (
         <Menu style={{ marginTop: '10px' }} borderless>
-          <Link route="/index">
+          <Link route="/">
             <a className='item'>
               Bruno Salapic
             </a>
