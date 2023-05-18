@@ -3,18 +3,23 @@ import Layout from '../components/layout'
 import ResumeBuilder from '../components/resumeBuild'
 import Education from '../components/Education'
 class CVIndex extends Component {
-    // componentDidMount() {
-    //     if ("serviceWorker" in navigator) {
-    //       navigator.serviceWorker
-    //         .register("/service-worker.js")
-    //         .then(registration => {
-    //           console.log("service worker registration successful: ", registration);
-    //         })
-    //         .catch(err => {
-    //           console.warn("service worker registration failed", err.message);
-    //         });
-    //     }
-    //   }
+    componentDidMount() {
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker
+            .register("/sw.js", { scope: "/" })
+            .then((registration) => {
+                // registration worked
+                console.log("Registration succeeded.");
+                registration.unregister().then((boolean) => {
+                // if boolean = true, unregister is successful
+                });
+            })
+            .catch((error) => {
+                // registration failed
+                console.error(`Registration failed with ${error}`);
+            });
+        }
+      }
     render() {
         return (
             <Layout>
