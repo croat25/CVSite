@@ -1,6 +1,19 @@
 [
     {
         "title" : "Senior Software Developer In Test",
+        "Location": "Remote",
+        "Company": "Genesys",
+        "ServiceTime": "June 2023 - Present",
+        "description": [
+            "Add/Implement selenium tests",
+            "Refactor integration tests",
+            "Work in MAC OS enviornment",
+            "Build/Develop test plans",
+            "Develop integration tests for new features"
+        ]
+    },
+    {
+        "title" : "Senior Software Developer In Test",
         "Location": "Guelph, Ontario, Canada",
         "Company": "Camis Inc",
         "ServiceTime": "Jan 2020 - July 2023",
